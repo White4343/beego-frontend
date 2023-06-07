@@ -1,0 +1,121 @@
+{
+  "SignIn": "Sign in",
+  "NovabeeSystem": "BeeGo System",
+  "Benefits": "Benefits",
+  "HowItWorks": "How It Works",
+  "Equipment": "Equipment",
+  "Order": "Shop",
+  "MyOrders": "My orders",
+  "Cart": "Cart",
+  "Settings": "Settings",
+  "Dashboard": "Admin-Dashboard",
+  "Logout": "Logout",
+  "Footer": {
+    "Social": "Social networks:",
+    "links": {
+      "1": "Privacy Policy",
+      "2": "Public offer for equipment",
+      "3": "Public offer for services"
+    }
+  },
+  "HomePage": {
+    "Tagline": "apiary of a new generation at your fingertips!",
+    "MainDescription": "Stay updated on the condition of every hive, monitor all activities, and receive immediate alerts in case of emergencies.",
+    "Benefits": "Why us?",
+    "Cards": {
+      "1": "Instant notification in case of any emergency situations",
+      "2": "Planning and recording of technological operations",
+      "3": "Reduction of all possible risks",
+      "4": "Status of each hive - temperature and humidity",
+      "5": "Easy own installation on any type of hive",
+      "6": "Receiving real time data using Internet"
+    },
+    "HowItWorksDescription": {
+      "1": "A basic device is installed on the hive, which records the temperature in the hive itself, and also collects information about humidity. Data collection from hives is done every 30 minutes.",
+      "2": "Sensors on beehives are installed independently. The design of the sensors allows installation on any type of hive and in any position - from the bottom, side or top.",
+      "3": "The device can work from any battery, power bank or other device that provides power for operation. The storage period of all data in the system is not limited."
+    }
+  },
+  "ShopPage": {
+    "GoToCart": "Go to cart",
+    "Cards": {
+      "1": {
+        "Name": "Basic device - Novabee",
+        "Descr": "This is main device for certain beehive that helps you track temperature and humidity values"
+      },
+      "3": {
+        "Name": "24 Honeycomb Bottles",
+        "Descr": "Let The Natural Beauty Of Your Honey Shine Through These Crystal Clear Squeeze Bottles. The Embossed Honeycomb On Our Hourglass Design Enhances Your Honey Sales! Precision Machined Openings Ensure The Safety Seals In Our Caps Have Adequate Adhesion."
+      },
+      "4": {
+        "Name": "Zippered replacement veils",
+        "Descr": "These zippered replacement veils fit on our adult size heavy-duty jackets and bee suits."
+      },
+      "2": {
+        "Name": "Goat Skin Vented Leather Gloves",
+        "Descr": "If you are concerned about your hands or arms getting stung while working with your bees or if you already have gotten stung and know how much it smarts, we encourage you to try these gloves…from our experience they work very well."
+      },
+      "5": {
+        "Name": "Scraper-Blade Stainless Steel",
+        "Descr": "Solid, crystallized honey is very difficult to pack from large containers into smaller ones. A special spatula for honey will help to avoid such problems."
+      }
+    },
+    "OrderBtn": "Add to cart"
+  },
+  "MyOrdersPage": {
+    "Order": "Order",
+    "StatusChangeDate": "Status change date:",
+    "Status": {
+      "pending": "pending",
+      "accepted": "accepted",
+      "processing": "processing",
+      "sent": "sent",
+      "received": "received",
+      "rejected": "rejected"
+    },
+    "Address": "Address:",
+    "OrderDate": "Order date",
+    "TotalPrice": "Total price:",
+    "Cards": {
+      "646f0081e24db09f593cb460": {
+        "Name": "Basic device - Novabee",
+        "Descr": "This is main device for certain beehive that helps you track temperature and humidity values"
+      },
+      "63764a260164699a8f8b5a03": {
+        "Name": "24 Honeycomb Bottles",
+        "Descr": "Let The Natural Beauty Of Your Honey Shine Through These Crystal Clear Squeeze Bottles. The Embossed Honeycomb On Our Hourglass Design Enhances Your Honey Sales! Precision Machined Openings Ensure The Safety Seals In Our Caps Have Adequate Adhesion."
+      },
+      "63764a4e0164699a8f8b5a09": {
+        "Name": "Zippered replacement veils",
+        "Descr": "These zippered replacement veils fit on our adult size heavy-duty jackets and bee suits."
+      },
+      "637649c80164699a8f8b59f9": {
+        "Name": "Goat Skin Vented Leather Gloves",
+        "Descr": "If you are concerned about your hands or arms getting stung while working with your bees or if you already have gotten stung and know how much it smarts, we encourage you to try these gloves…from our experience they work very well."
+      },
+      "63764a6c0164699a8f8b5a0e": {
+        "Name": "Scraper-Blade Stainless Steel",
+        "Descr": "Solid, crystallized honey is very difficult to pack from large containers into smaller ones. A special spatula for honey will help to avoid such problems."
+      }
+    }
+  },
+  "CartPage": {
+    "Items": "items",
+    "Summary": "Summary",
+    "Total": "Total:",
+    "Delivery": "Delivery",
+    "City": "City",
+    "Address": "Street",
+    "TotalPrice": "Total price",
+    "Checkout": "Checkout",
+    "EmptyCart": "Cart is empty",
+    "EmptyCartDescr": "Add at least one product to make an order.",
+    "Quantity": "Quantity: 1"
+  },
+  "EquipmentPage": {
+    "Materials": "Equipment",
+    "TemperatureSensor": "Temperature Sensor",
+    "Text1": "It simply uses a NodeMCU development board with a WiFi sensor and a DHT11 humidity sensor. In addition, you need a breadboard and connecting wires.",
+    "Text2": "The DHT11 is a basic, digital temperature and humidity sensor. It uses a capacitive humidity sensor and a thermistor to measure the surrounding air and spits out a digital signal on the data pin (no analog input pins needed)."
+  }
+}

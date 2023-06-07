@@ -1,0 +1,171 @@
+
+header {
+
+
+  .top {
+    padding: 10px;
+    background-color: #f6f8f6;
+
+
+    ul {
+      padding: 0 50px;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      gap: 15px;
+      margin: 0 auto;
+      max-width: 1176px;
+
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+          color: black;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    background-color: white;
+
+    .logo {
+      max-width: 150px;
+    }
+
+    box-shadow: 0 2px 4px -2px rgba(128, 128, 128, 0.5);
+
+    .inner {
+
+      padding: 0 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      max-width: 1176px;
+
+
+      .user {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .signIn {
+          cursor: pointer;
+          font-weight: bold;
+        }
+
+      }
+    }
+  }
+
+  .navbar {
+
+
+    p {
+      line-height: inherit;
+    }
+
+    select {
+      font-weight: bold;
+      cursor: pointer;
+      text-align: center;
+      padding: 25px 0;
+      background-color: white;
+      &:hover {
+        color: #4896ef;
+        box-shadow: 0 2px 0 0 #4896ef;
+      }
+
+      option {
+        cursor: pointer;
+        margin-bottom: 20px;
+
+      }
+    }
+
+    ul {
+      display: flex;
+
+      gap: 25px;
+
+      li {
+        height: 100%;
+        padding: 25px 0;
+        cursor: pointer;
+        font-weight: bold;
+        color: black;
+
+        &:hover {
+          color: #4896ef;
+          box-shadow: 0 2px 0 0 #4896ef;
+        }
+
+      }
+    }
+  }
+
+}
+
+
+@media (max-width: 767px) {
+  header {
+
+
+    .top {
+      display: none;
+
+      ul {
+        flex-direction: column;
+
+        li {
+
+        }
+      }
+    }
+
+
+    .bottom {
+      position: relative;
+      z-index: 20;
+
+      .inner {
+        padding: 0 20px;
+        background-color: white;
+        //flex-direction: column;
+        position: relative;
+      }
+    }
+
+
+    .navbar {
+      background-color: white;
+      width: 100%;
+      position: absolute;
+      z-index: 1;
+      transform: translateY(-100%);
+      visibility: hidden;
+      transition: transform 0.15s ease-in-out, visibility 0.15s ease-in-out;
+
+
+      ul {
+
+        flex-direction: column;
+
+        li {
+          text-align: center;
+        }
+
+      }
+    }
+
+    .navbar.visible {
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+  }
+
+
+}
