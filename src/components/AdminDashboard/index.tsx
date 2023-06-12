@@ -15,6 +15,8 @@ import {useAuth} from "../../utils/hooks/useAuth";
 import {useAdmin} from "../../utils/hooks/useAdmin";
 import UserList from "./User/UserList";
 import UserEdit from "./User/UserEdit";
+import ChartsList from "./Charts/ChartsList";
+import BarChartIcon from '@mui/icons-material/BarChart';
 
 interface AdminDashboardProps {
 
@@ -51,6 +53,10 @@ const AdminDashboard: React.FC<AdminDashboardProps> = () => {
                       list={UserList}
                       edit={UserEdit}
                       icon={PersonIcon}
+            />
+            <Resource name='charts'
+                      list={ChartsList}
+                      icon={BarChartIcon}
             />
         </Admin>
     );

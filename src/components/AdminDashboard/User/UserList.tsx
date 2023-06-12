@@ -27,14 +27,6 @@ import {IProduct, IUser} from "../types";
 import { ImportButton } from "react-admin-import-csv";
 import ChartsEmbedSDK from "@mongodb-js/charts-embed-dom";
 
-const sdk = new ChartsEmbedSDK({
-    baseUrl: "https://charts.mongodb.com/charts-project-0-duzrk/public/dashboards/6467d5e1-a807-4c9a-83e6-9918daae0694",
-    showAttribution: false
-});
-const salesChart = sdk.createChart({
-    chartId: "48043c78-f1d9-42ab-a2e1-f2d3c088f864"
-});
-
 const userFilters = [
     <TextInput label="Roles" source="role"/>,
 
@@ -57,13 +49,6 @@ const ListToolbar = () => (
 
 
 const UserList: React.FC = (props) => {
-
-    useEffect(() => {
-        salesChart.render(document.getElementById("chart-data") as HTMLElement);
-        // .catch(() => window.alert("Chart failed to initialise"));
-    }, []);
-
-
     return (
         <>
             <ListBase {...props}>
@@ -93,7 +78,6 @@ const UserList: React.FC = (props) => {
                 </Datagrid>
                 <Pagination rowsPerPageOptions={[5, 10, 25]}/>
             </ListBase>
-            <div id="chart-data" style={{ height: 500 }}></div>
         </>
     );
 };
